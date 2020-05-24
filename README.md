@@ -1,4 +1,5 @@
 <include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/jknight137/project-ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/jknight137/project-ml-microservice-kubernetes)
 
 ## Project Overview
 
@@ -40,3 +41,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Files Modified
+
+* app.py, Dockerfile, run_docker.sh, run_kubernetes.sh, and upload_docker.sh
