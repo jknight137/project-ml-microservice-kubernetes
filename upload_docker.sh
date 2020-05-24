@@ -7,9 +7,14 @@
 # Create dockerpath
 # dockerpath=<your docker ID/path>
 
+dockerpath="jknight/ml-microservice:1.0"
+
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login &&\
+    docker image tag ml-microservice:1.0 $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker image push $dockerpath
